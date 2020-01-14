@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #222;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+}
+header nav img {
+    width: 27px;
+    margin-left: 20px;
+}
+header nav #logo {
+    display: flex;
+}
+header nav #logo h2 {
+    color: #fff;
+}
+header nav #search {
+    margin-left: 450px;
+}
+header nav #search input {
+    width: 500px;
+    height:25px;
+}
+header nav button {
+    width: 50px;
+    height: 30px;
+    background-color: #000;
+    border: none;
+    position: relative;
+    top: 3px;
+}
+header nav button #img-search{
+    width: 20px;
+    margin-left: 0;
+}
