@@ -13,6 +13,13 @@ header {
 }
 nav {
     display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+header nav #logo i {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20px;
 }
 header nav img {
     width: 27px;
@@ -43,13 +50,19 @@ header nav button #img-search{
     width: 20px;
     margin-left: 0;
 }
-#upload ul {
+header #upload ul {
     display: flex;
     list-style: none;
-
+    margin-left: 100px;
+    position: relative;
+    top: 8px;
 }
-#upload img{
-    background-color: #fff;
+header #upload li {
+    margin: 0 10px;
+}
+header #upload i {
+    color: #fff;
+    font-size: 20px;
 }
 #upload #profile{
     border-radius: 50%;
@@ -57,7 +70,14 @@ header nav button #img-search{
 section {
     padding-top: 50px;
     background-color: #292828;
-    display: flex;fom
+    display: flex;
+}
+section #video {
+    margin-top: 20px;
+    width: 80%;
+}
+section #video iframe {
+    width: 100%;
 }
 section #video h1 {
     margin: 30px;
@@ -72,22 +92,25 @@ section #video #info{
     display: flex;
 }
 section #video #engage{
+    display: flex;
     margin-top: 70px;
     margin-left: 160px;
 }
-section #video #engage img{
-    width: 40px;
-    
+section #video #engage .box {
+    margin-left: 30px;
+}
+section #video #engage i {
+    color: #fff;
+    font-size: 20px;
 }
 section #video #engage span{
     color: #fff;
     font-size: 30px;
-    position: relative;
-    top: -10px;
 }
 section #video #discription{
     position: relative;
     display: flex;
+    margin-top: 30px;
 }
 section #video #discription #avatar {
     display: flex;
@@ -95,6 +118,7 @@ section #video #discription #avatar {
 section #video #discription #avatar img {
     width: 80px;
     margin-left: 30px;
+    border-radius: 50%;
 }
 section #video #discription #avatar p {
     position: relative;

@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>EMBEDDING IMAGES AND VIDEO</title>
     <link rel='stylesheet' href='style.css' />
+    <script src="https://kit.fontawesome.com/6887534a1e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <img src='img/menu-icon.png'/>
             <div id="logo">
+                <i class="fas fa-bars"></i>
                 <img src="img/youtube-icon.jpg" />
                 <h2>Youtube</h2>
             </div>
@@ -21,9 +22,9 @@
             </div>
             <div id="upload">
                 <ul>
-                    <li><a href="#"><img src="img/video_upload.jpg"></a></li>
-                    <li><a href="#"><img src="img/app_icon.png"></a></li>
-                    <li><a href="#"><img src="img/notify.jpeg"></a></li>
+                    <li><a href="#"><i class="fas fa-video"></i></a></li>
+                    <li><a href="#"><i class="fas fa-th"></i></a></li>
+                    <li><a href="#"><i class="fas fa-bell"></i></a></li>
                     <li><a href="#"><img id="profile" src="img/iryn.jpg"></a></li>
                 </ul>
             </div>
@@ -38,12 +39,18 @@
                     <p>55,156,250 views</p>
                 </div>
                 <div id="engage">
-                    <img src="img/like.png" >
-                    <span>100k</span>
-                    <img src="img/dislike.png" >
-                    <span>10</span>
-                    <img src="img/share.png" >
-                    <span>share</span>
+                    <div class="box">
+                        <i class="fas fa-thumbs-up"></i>
+                        <span>100k</span>
+                    </div class="box">
+                    <div class="box">
+                        <i class="fas fa-thumbs-down"></i>
+                        <span>10</span>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-share-alt"></i>
+                        <span>share</span>
+                    </div>
                 </div>
             </div>
             <div id="discription">
@@ -113,6 +120,9 @@
             </div>
         </div>
     </section>
+    <footer>
+        
+    </footer>
     
 </body>
 </html>
