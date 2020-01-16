@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: #222;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+header nav #logo i {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20px;
+}
+header nav img {
+    width: 27px;
+    margin-left: 20px;
+}
+header nav #logo {
+    display: flex;
+}
+header nav #logo h2 {
+    color: #fff;
+}
+header nav #search {
+    margin-left: 200px;
+}
+header nav #search input {
+    width: 400px;
+    height:25px;
+}
+header nav button {
+    width: 50px;
+    height: 30px;
+    background-color: #000;
+    border: none;
+    position: relative;
+    top: 3px;
+}
+header nav button #img-search{
+    width: 20px;
+    margin-left: 0;
+}
+header #upload ul {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    position: relative;
+    top: 8px;
+}
+header #upload li {
+    margin: 0 10px;
+}
+header #upload i {
+    color: #fff;
+    font-size: 20px;
+}
+#upload #profile{
+    border-radius: 50%;
+}
+section {
+    padding-top: 50px;
+    background-color: #292828;
+    display: flex;
+}
+section #video {
+    margin-top: 20px;
+    width: 80%;
+}
+section #video iframe {
+    width: 100%;
+}
+section #video h1 {
+    margin: 30px;
+    color: #fff; 
+}
+section #video p{
+    color: #fff;
+    margin-left: 40px;
+    font-weight: 50px;
+}
+section #video #info{
+    display: flex;
+}
+section #video #engage{
+    display: flex;
+    margin-top: 70px;
+}
+section #video #engage .box {
+    margin-left: 30px;
+}
+section #video #engage i {
+    color: #fff;
+    font-size: 17px;
+}
+section #video #engage span{
+    color: #fff;
+    font-size: 30px;
+}
+section #video #discription{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+}
+section #video #discription #avatar {
+    display: flex;
+}
+section #video #discription #avatar img {
+    width: 80px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+section #video #discription #avatar p {
+    position: relative;
+    top:30px;
+    font-size: 20px;
+}
+section #video #discription #subscribe {
+    margin-left: auto;
+    width: 160px;
+    height: 40px;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+section #side-bar {
+    margin-top: 30px;
+}
+section #side-bar .side-video {
+    display: flex;
+    margin: 10px;
+}
+section #side-bar .side-video img {
+    width: 200px;
+}
+section #side-bar .side-video h4 {
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+section #side-bar .side-video span{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
