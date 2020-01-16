@@ -35,7 +35,7 @@ header nav #search {
     margin-left: 200px;
 }
 header nav #search input {
-    width: 500px;
+    width: 400px;
     height:25px;
 }
 header nav button {
@@ -94,14 +94,13 @@ section #video #info{
 section #video #engage{
     display: flex;
     margin-top: 70px;
-    margin-left: 160px;
 }
 section #video #engage .box {
     margin-left: 30px;
 }
 section #video #engage i {
     color: #fff;
-    font-size: 20px;
+    font-size: 17px;
 }
 section #video #engage span{
     color: #fff;
@@ -110,7 +109,7 @@ section #video #engage span{
 section #video #discription{
     position: relative;
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 section #video #discription #avatar {
     display: flex;
@@ -139,15 +138,18 @@ section #side-bar .side-video {
     display: flex;
     margin: 10px;
 }
+section #side-bar .side-video img {
+    width: 200px;
+}
 section #side-bar .side-video h4 {
     color: #fff;
-    margin-left: 20px;
-    margin-top: 40px;
-    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 15px;
 }
 section #side-bar .side-video span{
     color: #fff;
-    font-size: 30px;
+    font-size: 15px;
     margin-left: 30px;
 }
 
